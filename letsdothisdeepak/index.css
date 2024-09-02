@@ -1,0 +1,9 @@
+h1{
+    color: red;
+}
+form{
+    background-color: rgba(102, 166, 145, 0.163);
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+}
