@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.354);
+
+}
+.title{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+
+
+.container{
+         background-color: white;
+         max-width: 800px;
+         margin: auto;
+         padding:30px;
+         margin-top: 50px;
+         border-radius: 10px;
+}
+.web{
+    font-size: 25px;
+    
+}
+
+
+
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 47px;
+    
+}
+
+
+#Job_Role {
+    margin-right: 216px;
+    
+    
+}
+.add{
+    margin-left: 45px;
+    margin-top:35px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+#Resume{
+    margin-right: 69px;
+}
+button{
+    margin-left: 83%;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 7px;
+    margin-top: 10px;
+}
