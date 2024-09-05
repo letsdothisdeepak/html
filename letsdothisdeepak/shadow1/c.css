@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.container{
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+
+.box{
+    border: 2px solid black;
+    width:200px;
+    height: 200px;
+    background-color: red;
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-fill-mode: backwards;
+    position: absolute;
+    
+    animation-iteration-count:2;
+ 
+    
+}
+h1{
+    background-color: rgb(163, 44, 44);
+    animation-name: deepak;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-fill-mode: backwards;
+    /* position: relative; */
+    
+    animation-iteration-count:infinite;
+
+}
+/* @keyframes deepak{
+    from{top:0px;}
+    to {top:600px;}
+} */
+
+@keyframes movement{
+from{
+    left:0px;
+}
+to{
+    left:600px;
+}
+}
