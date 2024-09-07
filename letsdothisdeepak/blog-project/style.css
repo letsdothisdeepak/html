@@ -32,6 +32,18 @@ nav ul li{
     margin-left:-80px;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: Deepak 2s ease-in 0s forwards 1 ;
+    position: relative;
+}
+@keyframes Deepak{
+    from{
+        font-size: 15px;
+        color: black;
+    }
+    to{
+        font-size: 30px;
+        color:red;
+    }
 }
 .section0{
     display: flex;
