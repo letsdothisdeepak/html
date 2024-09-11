@@ -20,7 +20,11 @@
 
 /* Useful method to develop a game like ludo */
 
-let min=1;
-let max=6;
+let min=20;
+let max=40;
 
-console.log(Math.ceil(Math.random()*(max-min+1)));
+console.log(Math.ceil((Math.random())*((max-min+1)))+min);
+
+// console.log(Math.PI);
+// console.log(Math.sin(45));
+// console.log(Math.ceil(Math.random()*10));
