@@ -22,6 +22,7 @@ nav ul {
     display: flex;
     padding: 10px;
     margin-left: 35%;
+    color: white;
 }
 nav ul li{
     padding: 7px;
@@ -42,12 +43,14 @@ nav ul li{
     }
     to{
         font-size: 30px;
-        color:red;
+        color:rgb(255, 255, 255);
     }
 }
 .section0{
     display: flex;
     justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,95,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .zone{
     font-size: 30px;
@@ -63,8 +66,21 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     margin-left: 40px;
-    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    animation-name: sub_section1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    position: relative;
 
+    
+}
+@keyframes sub_section1{
+    from{
+        left:-50px;
+    }
+    to{
+        left: 10px;
+    }
 }
 .sub-section2{
     display: flex;
