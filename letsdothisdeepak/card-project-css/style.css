@@ -7,7 +7,7 @@ body{
     background-color: rgba(172, 168, 168, 0.329);
 }
 
-.container{
+[class=container]{
     width: 450px;
     height: 550px;
     background-color: white;
@@ -132,4 +132,8 @@ h3{
 .footer-icon-3{
     display: flex;
     gap:5px;
+}
+
+.section2:last-child{
+    font-style: italic;
 }
