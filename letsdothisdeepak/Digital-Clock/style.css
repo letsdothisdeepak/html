@@ -1,0 +1,21 @@
+html{
+    background-color: rgba(109, 102, 91, 0.483);
+}
+
+.container{
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+#clock{
+    background-color: orange;
+    padding: 20px 70px;
+    font-size: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+}

@@ -19,4 +19,22 @@ form.addEventListener('submit',function (e) {
         let BMI= ((Weight*10000/(Height*Height))).toFixed(2)
         Results.innerHTML= `Your calculated BMI is ${BMI}`
     }
+
+    
 })
+
+document.getElementById('info').addEventListener('click',function (e) {
+
+    console.log("asc");
+    
+})
+
+// function change() {
+//     let mybmi= document.getElementById('bmi')
+//     mybmi.textContent= 'Nhi pata bhai baad me aana'
+    
+// }
+
+// let mybmi= document.getElementById('bmi')
+//  mybmi.addEventListener('click',change)
+
