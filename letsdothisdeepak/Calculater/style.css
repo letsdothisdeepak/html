@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main{
+    border: 0px solid rgb(16, 15, 15);
+     width:250px;
+     height: 350px;
+     box-shadow: 2px 2px 2px 2px rgb(59, 43, 43);
+
+    /* height: 100px; */
+}
+#input1{
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(26, 24, 24);
+    text-align: end;
+   color: white;
+   border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px rgb(53, 45, 45);
+
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 21px;
+    border-radius: 50%;
+    margin:2px;
+    background-color: rgb(5, 3, 3);
+    color: white;
+    box-shadow: 1px -1px 1px rgb(120, 102, 102);
+    border: 0px solid black;
+}
+
+.btn{
+    
+    margin: 10px 0px 0px 10px;
+    
+    
+}
+/* #equal{
+    background-color: orange;
+    color: white;
+} */
+/* .symbol{
+    background-color:rgb(23, 20, 20);
+    color: rgb(122, 195, 12);
+} */
