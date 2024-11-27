@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> body{
+        /* background-color: rgba(0, 0, 255, 0.207); */
+       
+       
+        background-image: url("./1234.jpg");
+        background-repeat: repeat-y;
+        
+  
+        background-attachment: scroll;
+    }
+        
+        </style>
 </head>
-<body style="background-color: #212121;">
+<body>
+ 
+
     <img src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" alt="" width="100px" height="110px" style="margin-top: 100px;">
     <button>Followers</button>
+    body {
+  background-image: url("bgdesert.jpg");
+}
     0	UNSENT	Client has been created. open() not called yet.
 1	OPENED	open() has been called.
 2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
@@ -26,9 +43,10 @@
             let Followers= document.querySelector('button')
 
             Followers.addEventListener('click',function() {
-            Followers.innerHTML= data.login
+            Followers.innerHTML= data.followers
          })
         }
+        
     }
     xhr.send();
    

@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    text-decoration: none;
+}
+
+
+/*++++++++++ Navbar-CSS Starts Here+++++++++++ */
+
+#logo img{
+    height: 120px;
+    margin-left: 120px;
+    margin-top: 15px;
+    
+}
+#navbar{
+    position: sticky;
+    top:0px;
+    /* margin-top: -20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(222, 221, 218);
+    height: 100px;
+    position: sticky;
+    box-shadow: -4px -4px 0px grey;
+    
+    
+}
+
+#main-list {
+    
+    /* width: 100%; */
+    /* height: 80px; */
+    display: flex;
+    
+    align-items: center;
+    margin-right: -400px;
+    
+}
+#main-list li a{
+     
+     text-decoration: none;
+     color: black;
+     
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1.2rem;
+     font-weight:100;
+     margin: 0px 20px;
+     font-family: "Parkinsans", sans-serif;
+    
+}
+#main-list #cart-icon{
+    
+    font-size: 30px;
+    width: 60px;
+    
+}
+#main-list li{
+    list-style-type: none;
+    position: relative;
+}
+
+#main-list li a:hover,
+#main-list a.active {
+color: rgb(5, 160, 158);
+transition: 0.6s ease;
+}
+
+#main-list li a.active::after,
+#main-list li a:hover::after{
+
+    content: "";
+    width: 40%;
+    height: 1.5px;
+    position: absolute;
+    background: rgb(5, 160, 158);
+    left: 20px;
+    bottom: -0.2px;
+
+}
+
+/* +++++++++++++++++++ Navbar-CSS Ends here ++++++++++++++++++++++*/
+
+
+/* -------------------Hero Section CSS Starts Here------------------ */
+#hero-section-image{
+    width: 450px;
+    height: 650px;
+    margin-right: 90px;
+}
+
+
+.hero-section{
+   
+   display: flex;
+   justify-content: space-between;
+   background-color:rgba(183, 182, 180, 0.374);
+}
+.hero-section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 400px;
+    margin:80px 150px;
+    font-size: 1.5rem;
+    line-height: 50px;
+    font-family: "Parkinsans", sans-serif;
+}
+.hero-section-card button{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100px;
+    padding: 2px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: rgb(242 242 237 / 93%); 
+    background-color: rgb(5, 160, 158);
+    color: white;
+    cursor: pointer;
+}
+.hero-section-card p{
+    font-size: 20px;
+}
+.hero-section-card h3{
+    font-size: 25px;
+    color: black;
+}
+.hero-section-card h2{
+    font-size: 45px;
+    color: black;
+    
+}
+.hero-section-card h1{
+    font-size: 50px;   
+    color: rgb(11, 112, 79);
+    margin-top: 5px;
+    
+}
+.hero-section-card p{
+    color: black;
+    font-weight: 100;
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+/*+++++++++++++ Hero Section SCC Ends Here ++++++++++++++ */
+
+.featured-section-card img ,.featured-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     height: 100px;
+     width: 100px;
+     font-size: 13px;
+     text-align: center;
+     margin-top: 10px;
+     
+}
+.featured-section-card{
+    display: flex;
+    border: 1px solid rgba(6, 101, 50, 0.193);
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(6, 101, 50, 0.193) ;
+    
+}
+.featured-section-card p{
+    background-color: rgb(12, 144, 142);
+    padding: 5px 2px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 12px ;
+    font-family: "Parkinsans", sans-serif;
+    width:110px;
+    height: 20px;
+    text-align: center;  
+    font-weight: 700;
+}
+
+.featured-section{
+    display: flex;
+    flex-direction: row;
+    width:1300px;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+/* +++++++++++++++Featured Section CSS Ends Here +++++++++++++*/
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.featured h1{
+    font-size: 55px;
+    color: black;
+    font-family: "Parkinsans", sans-serif;
+    letter-spacing: 2px;
+}
+.featured p{
+    font-size: large;
+    color: rgba(0, 128, 0, 0.857);
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 10px;
+    font-weight: 100;
+
+}
+
+.product-card{
+    /* border: 1px solid black; */
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 12px;
+    margin-top: 80px;
+    /* margin-left: 300px; */
+}
+.product-card img{ 
+    width: 260px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+
+.product-details p{
+    color: black;
+    margin: 10px 0px 0px 0px;
+    font-family: "Parkinsans", sans-serif;
+}
+.product-details h3{
+    color: black;
+    margin: 5px 0px;
+    font-family: "Parkinsans", sans-serif;
+}
+.product-details i{
+    color: rgb(255, 187, 41);
+    margin: 5px 0px;
+
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin: 7px 0px;
+    font-family: "Parkinsans", sans-serif;
+    color: rgb(5, 160, 158);
+}
+.product-price .ri-shopping-cart-2-fill{
+    color: black;
+    font-size: 25px;
+    color: rgb(5, 160, 158);
+    background-color: rgba(245, 204, 139, 0.397);
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: -5px;
+    
+    box-shadow: 1px 1px 2px rgba(70, 255, 153, 0.768);
+}
+
+.products-section{
+   display: flex;
+}
+
+
+
+  
+
+  

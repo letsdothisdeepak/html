@@ -1,0 +1,33 @@
+/* body {
+    background-image: url("./1234.jpg");
+    /* background-repeat: repeat-x; */
+    /* background-position:right top ; */
+    
+   
+    /* background-attachment: scroll; */
+  /* } */ 
+
+  #me{
+    border: 2px dashed dotted double  rgb(56, 47, 47);
+    background-color: green;
+    margin-top: 40px;
+    width: 140px;
+    text-align: center;
+    height: 50px;
+
+    text-shadow: 2px 2px 3px rgb(242, 123, 123), 3px 2px 5px blue ;
+    
+    /* border: 3px solid grey; */
+    /* padding: 3px; */
+    
+    
+  }
+
+  ul{
+    list-style: circle;
+
+    text-decoration: line-through;
+    text-decoration-style: dotted ;
+    text-decoration-color: red;
+  }
+  
