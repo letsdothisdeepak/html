@@ -1,0 +1,768 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+
+/*++++++++++ Navbar-CSS Starts Here+++++++++++ */
+
+#logo img{
+    height: 120px;
+    margin-left: 120px;
+    margin-top: 15px;
+    
+}
+#navbar{
+    position: sticky;
+    top:0px;
+    /* margin-top: -20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 227, 227);
+    height: 100px;
+    position: sticky;
+    box-shadow: -4px -4px 0px grey;
+    
+    
+}
+
+#main-list {
+    
+    /* width: 100%; */
+    /* height: 80px; */
+    display: flex;
+    
+    align-items: center;
+    margin-right: -400px;
+    
+}
+#main-list li a{
+     
+     text-decoration: none;
+     color: black;
+     
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1.2rem;
+     font-weight:100;
+     margin: 0px 20px;
+     font-family: "Parkinsans", sans-serif;
+    
+}
+#main-list #cart-icon{
+    
+    font-size: 30px;
+    width: 60px;
+    
+}
+#main-list li{
+    list-style-type: none;
+    position: relative;
+}
+
+#main-list li a:hover,
+#main-list a.active {
+color: rgb(5, 160, 158);
+transition: 0.6s ease;
+}
+
+#main-list li a.active::after,
+#main-list li a:hover::after{
+
+    content: "";
+    width: 40%;
+    height: 1.5px;
+    position: absolute;
+    background: rgb(5, 160, 158);
+    left: 20px;
+    bottom: -0.2px;
+
+}
+
+/* +++++++++++++++++++ Navbar-CSS Ends here ++++++++++++++++++++++*/
+
+
+/* -------------------Hero Section CSS Starts Here------------------ */
+#hero-section-image{
+    width: 450px;
+    height: 650px;
+    margin-right: 90px;
+}
+
+
+.hero-section{
+   
+   display: flex;
+   justify-content: space-between;
+   background-color:rgba(183, 182, 180, 0.374);
+}
+.hero-section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 400px;
+    margin:80px 150px;
+    font-size: 1.5rem;
+    line-height: 50px;
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 40px;
+}
+.hero-section-card button{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100px;
+    padding: 2px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: rgb(242 242 237 / 93%); 
+    background-color: rgb(5, 160, 158);
+    color: white;
+    cursor: pointer;
+    
+}
+.hero-section-card p{
+    font-size: 20px;
+}
+.hero-section-card h3{
+    font-size: 25px;
+    color: black;
+}
+.hero-section-card h2{
+    font-size: 45px;
+    color: black;
+    
+}
+.hero-section-card h1{
+    font-size: 50px;   
+    color: rgb(11, 112, 79);
+    margin-top: 5px;
+    margin-left: -2px;
+    
+}
+.hero-section-card p{
+    color: black;
+    font-weight: 100;
+    margin-top: 7px;
+    font-size: 17px;
+    
+}
+
+/*+++++++++++++ Hero Section SCC Ends Here ++++++++++++++ */
+
+.featured-section-card img ,.featured-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     height: 100px;
+     width: 100px;
+     font-size: 13px;
+     text-align: center;
+     margin-top: 10px;
+     
+}
+.featured-section-card{
+    display: flex;
+    border: 1px solid rgba(6, 101, 50, 0.193);
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(6, 101, 50, 0.193) ;
+    
+}
+.featured-section-card p{
+    background-color: rgb(12, 144, 142);
+    padding: 5px 2px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 12px ;
+    font-family: "Parkinsans", sans-serif;
+    width:110px;
+    height: 20px;
+    text-align: center;  
+    font-weight: 700;
+}
+
+.featured-section{
+    display: flex;
+    flex-direction: row;
+    width:1300px;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+/* +++++++++++++++Featured Section CSS Ends Here +++++++++++++*/
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 40px;
+    background-color: rgba(5, 223, 67, 0.03);
+    height: 200px;
+    text-align: center;
+}
+.featured h1{
+    font-size: 55px;
+    color: black;
+    font-family: "Parkinsans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.featured p{
+    font-size: large;
+    color: rgba(13, 78, 13, 0.894);
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+/* ++++++++++++++ Product Section CSS Starts Here ++++++++++++++++ */
+
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1300px;
+    height: 900px;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    padding: 20px;
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    
+}
+.product-card{
+    width: 270px;
+    height: 380px;
+    border: 1px solid rgba(2, 201, 29, 0.243);
+    border-radius: 20px;
+    padding: 15px;
+   
+}
+
+.product-card img{
+ height: 250px;
+ width: 270px;
+ border-radius: 15px;
+}
+
+.product-card p{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.642);
+}
+
+.product-card h2{
+    font-size: 15px;
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 5px;
+    color: black;
+}
+.product-card .ri-star-s-fill{
+    color: rgb(255, 174, 25);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.product-card .price{
+    color: rgb(12, 144, 142);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.price .ri-shopping-cart-2-line{
+    font-size: 25px;
+    color: rgb(0, 135, 25);
+    background-color: rgba(66, 254, 41, 0.224);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* ++++++++++++++ Product Section CSS Ends Here ++++++++++++++++ */
+
+/* +++++++++++++++++ Banner1 CSS Starts Here++++++++++++++++ */
+.Repair-services-banner-details{
+    background-image: url(./banner-images/Repair-Services.jpg);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    color: white;
+    font-family: "Parkinsans", sans-serif;
+}
+.Repair-services-banner-details button{
+    padding: 7px 15px ;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Parkinsans", sans-serif;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Repair-services-banner-details button:hover{
+    background-color: rgb(10, 76, 106);
+    color: white;
+    border: 0px soild rgb(10, 76, 106) ;
+    scale: 1.05;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+.Repair-services-banner-details span{
+    color: red;
+}
+
+.Repair-services-banner-details h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* +++++++++++++++++ Banner1 Ends Starts Here ++++++++++++++++ */
+
+/* +++++++++++++++++ New Arrivals CSS Starts Here ++++++++++++++ */
+
+.new-arrivals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    line-height: 40px;
+    background-color: rgba(5, 223, 67, 0.03);
+    height: 200px;
+    text-align: center;
+
+}
+.new-arrivals h1{
+    font-size: 55px;
+    color: black;
+    font-family: "Parkinsans", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.new-arrivals p{
+    font-size: large;
+    color: rgba(8, 43, 8, 0.821);
+    font-family: "Parkinsans", sans-serif;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+/* +++++++++++++++++ New Arrivals CSS Starts Here ++++++++++++++ */
+
+.banner1{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 320px;
+    
+}
+
+ .banner1-card1{
+    background-image: url(./banner2-images/b21.jpg);
+    width: 570px;
+    height:300px;
+    /* margin-left: 20px; */
+    font-family: "Parkinsans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner1-card1 p,h1,h6,button{
+    margin-left: 50px;
+}
+
+
+.banner1-card1 p {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.banner1-card1 h1{
+    color: white;  
+    font-size: 40px;
+}
+.banner1-card1 h6{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.banner1-card1 button{
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    /* margin-left: -150px; */
+    margin-top: 20px;
+    background-color: rgba(239, 188, 35, 0);
+    width: 150px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.banner1-card1:hover button{
+    color:white;
+    background-color: rgba(6, 136, 136, 0.809);
+    border: 1px solid rgba(7, 133, 133, 0.532);
+    transition:0.4s ease-in-out 0s;
+}
+
+
+
+ .banner1-card2{
+    background-image: url(./banner2-images/b22.jpg);
+    width: 570px;
+    height:300px;
+    /* margin-left: 20px; */
+    font-family: "Parkinsans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner1-card2 p,h1,h6,button{
+    margin-left: 50px;
+}
+
+
+.banner1-card2 p {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.banner1-card2 h1{
+    color: white;  
+    font-size: 40px;
+}
+.banner1-card2 h6{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.banner1-card2 button{
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    /* margin-left: -150px; */
+    margin-top: 20px;
+    background-color: rgba(239, 188, 35, 0);
+    width: 150px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner1-card2:hover button{
+    color:white;
+    background-color: rgba(6, 136, 136, 0.809);
+    border: 1px solid rgba(7, 133, 133, 0.532);
+    transition:0.4s ease-in-out 0s;
+}
+
+/*+++++++++++++ banner2 three cards CSS Starts here ++++++++++++ */
+.banner2{
+    font-family: "Parkinsans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    align-items: center;
+    margin-left: 70px;
+    width: 1300px;
+    margin-top: 30px;
+    position: relative;
+}
+#b2c1{
+    width: 385px;
+    height: 230px;
+}
+
+#b2c2{
+    width: 385px;
+    height: 230px;
+    
+}
+#b2c3{
+    width: 385px;
+    height: 230px;
+   
+}
+
+.banner2 p{
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: white;
+
+}
+    
+.banner2 h2{
+    color: rgb(22, 21, 21);
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color:rgb(213, 11, 75);
+}
+
+.banner2 .banner2-card2 p{
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 490px;
+    color: white;
+}
+
+.banner2 .banner2-card2 h2{
+    color: black;
+    position: absolute;
+    top: 130px;
+    left: 490px;
+    color: rgb(213, 11, 75);
+}
+
+.banner2 .banner2-card3 p{
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 73%;
+    color: white;
+}
+
+.banner2 .banner2-card3 h2{
+    color: black;
+    position: absolute;
+    top: 130px;
+    left: 73.4%;
+    color: rgb(213, 11, 75);
+}
+
+/* +++++++++++++++ Banner2 CSS Ends Here +++++++++++++ */
+
+
+/* +++++++++++++++ Banner3 CSS Starts Here +++++++++++++ */
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width:100%;
+    height: 170px; 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+    font-family: "Parkinsans", sans-serif;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.banner3 .banner3-part1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left: 80px;
+    color: white;
+}
+
+.banner3 .banner3-part1 h3{
+    font-size: 25px;
+}
+.banner3 .banner3-part1 p{
+   font-size: 13px;
+   color: rgb(149, 156, 156);
+}
+.banner3 .banner3-part1 p span{
+    color: rgb(255, 200, 0);
+}
+
+
+.banner3 .banner3-part2{
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.banner3 .banner3-part2 input{
+    padding: 15px 100px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align:center;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+   
+}
+
+.banner3 .banner3-part2 button{
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 30px;
+    border: 1px solid rgba(15, 108, 93, 0.757);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(15, 108, 93, 0.757);
+    color: rgb(255, 255, 255);
+}
+
+.banner3 .banner3-part2 button:hover{
+    background-color: rgb(5, 90, 62);
+    scale: 1.02;
+}
+
+/* +++++++++++++++ Banner3 CSS Ends Here +++++++++++++ */
+
+
+
+
+/* +++++++++++ Footer Section CSS Starts Here+++++++++ */
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    width: 100%;
+    height: 370px;
+    /* border: 1px solid black; */
+    font-family: "Parkinsans", sans-serif;
+    /* margin-top: 50px; */
+}
+.footer-part1{
+    display: flex;
+    margin-left: 100px;
+    font-size:16px;
+    line-height: 24px;
+    max-width: 380px;
+}
+
+.footer-part1 ul li:nth-child(2){
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+.footer-part2{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+    justify-content: space-around;
+    width: 900px;
+    color: black;
+}
+footer li{
+    list-style: none;
+    color: black;
+}
+
+footer .footer-part1 img{
+    width: 80px;
+    height: 90px;
+    margin-bottom: 0px;
+}
+.footer-part1 ul li:nth-child(5){
+    margin-bottom: 10px;
+}
+
+.footer-part1 ul li:nth-child(6){
+   
+    margin-bottom: 8px;
+}
+.footer-part1 a{
+    color: black;
+    margin-left: -2px;
+}
+
+.footer-part2a li a{
+      color: black;
+      
+}
+
+.footer-part2a ul li:nth-child(1){
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-part2a ul {
+    line-height: 28px;
+    font-weight: 400px;
+}
+
+
+.footer-part2b ul li a{
+    color: black;
+    font-size: 16px;
+    
+}
+
+.footer-part2b ul li:nth-child(1){
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer-part2b ul {
+  line-height: 27px;
+  font-weight: 400px;
+}
+
+
+
+.footer-part2c ul li a{
+    color: black;
+    font-size: 16px;
+    
+}
+
+.footer-part2c ul li:nth-child(1){
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer-part2c ul li:nth-child(3){
+    font-size: 30px;
+    margin: 5px 0px;
+  }
+
+.footer-part2c ul {
+  line-height: 27px;
+  font-weight: 400px;
+}
+
+
+.copyright p{
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 40px;
+    margin-top: -40px;
+   
+    font-family: "Parkinsans", sans-serif;
+}
