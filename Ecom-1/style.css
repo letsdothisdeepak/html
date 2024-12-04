@@ -14,6 +14,12 @@
     margin-top: 15px;
     
 }
+/* Navbar Mobile CSS */
+.mobile{
+    /* font-size: 30px;
+    margin-left: 140px; */
+    display: none;
+}
 #navbar{
     position: sticky;
     top:0px;
@@ -27,6 +33,17 @@
     box-shadow: -4px -4px 0px grey;
     
     
+}
+
+/* #cross{
+    display: flex;
+    font-size: 35px;
+    margin-top: -60px;
+    margin-left: 140px;
+} */
+
+#cross{
+    display: none;
 }
 
 #main-list {
@@ -765,4 +782,69 @@ footer .footer-part1 img{
     margin-top: -40px;
    
     font-family: "Parkinsans", sans-serif;
+}
+
+
+/* Media Quesries for (Mobile) responsiveness Starts Here */
+
+@media (max-width:450px) {
+    /* *{
+        text-decoration: none;
+    } */
+     #main-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:space-around;
+        line-height: 30px;
+        width: 250px;
+        height: 300px;
+        /* position: fixed; */
+        margin-top: 200px;
+        margin-left:10px;
+        background-color: rgb(2, 32, 27);
+    }
+
+
+     /* #main-list.active{
+        margin-left:-800px;
+        margin-top:200px;
+    } */
+
+    #cross{
+        display: flex;
+        font-size: 35px;
+        margin-top: -60px;
+        margin-left: 140px;
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: space-between;
+        margin-left:50px;
+    }
+    .mobile i{
+        padding: 5px;
+        font-size: 25px;
+    }
+  
+    #navbar #main-list .active{
+        color:rgb(209, 207, 207);
+        text-decoration: none;
+    }
+
+    #navbar #main-list li a {
+        /* margin-top: 10px; */
+        color:rgb(209, 207, 207);
+    }
+
+    #logo img {
+        height: 70px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    /* #cross{
+        display: none;
+    } */
+    
 }
